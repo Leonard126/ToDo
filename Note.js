@@ -41,7 +41,7 @@ export class Note {
 
         // Приявзка события к кнопке удаляения
         this.deleteButton.addEventListener("click", () => {
-            if (confirm('Вы уверяны?')) {
+            if (confirm('Вы уверены?')) {
 
                 // Удялем запись
                 this.delete()
